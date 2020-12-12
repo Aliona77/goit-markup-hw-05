@@ -382,6 +382,8 @@ img {
   height: 44px;
   border-radius: 50%;
   color: #afb1b8;
+
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-icon {
@@ -420,6 +422,8 @@ img {
   box-sizing: border-box;
   border-radius: 4px;
   color: #afb1b8;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .costumers-list-icon {
   fill: currentColor;
@@ -511,6 +515,8 @@ img {
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-icon {
   fill: #ffffff;
@@ -601,6 +607,8 @@ img {
   border: none;
   border-radius: 4px;
   overflow: hidden;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-list {
@@ -672,7 +680,7 @@ img {
   border-bottom: 1px solid #eeeeee;
   box-sizing: border-box;
 }
-/*============= Portfolio Hover==========*/
+/*============= Portfolio Overlay==========*/
 .overlay {
   position: absolute;
   width: 100%;
@@ -698,6 +706,6 @@ img {
 .portfolio-photo-link:focus .overlay {
   transform: translateY(0%);
 }
-/*============= End Portfolio Hover==========*/
+/*============= End Portfolio Overlay==========*/
 
 /*=============End Portfolio==========*/ ;
